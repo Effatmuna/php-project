@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.paymentFailed{
+    text-align: center;
+    
+    margin: 70px auto auto auto;
+    padding:20px;
+   
+   width:40%;
+   border-radius: 2px solid red;
+    
+    
+    
+    
+}
+h1{
+    color:red;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.bdt a{
+    text-decoration: none;
+    background-color: skyblue;
+    padding:5px;
+    color:rgb(8, 8, 7);
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 5px;
+   
+}
+.paymentFailed button a{
+    text-decoration: none;
+    color:black;
+}
+
+.bdt{
+    padding:20px;
+}
+.reason{
+    background-color: rgb(234, 199, 203);
+    padding:20px;
+    margin-top: 20px;
+    
+}
+.bdt{
+    background-color: rgb(234, 209, 211);
+}
+button{
+    width:100%;
+  
+    padding:10px;
+    
+    border: none;
+    background-color: rgb(231, 8, 8);
+    font-size: 20px;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+@media screen and (max-width:350px) {
+    .paymentFailed{
+        width:70%;
+    }
+    .reason{
+        padding:10px;
+    }
+    
+}

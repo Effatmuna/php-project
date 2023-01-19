@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    position: sticky !important;
+}
+body{
+
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 2 1fr;
+    row-gap: 210px;
+    justify-items: center;
+    background-image: url("../img/pic 13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.overflow{
+    height:633px !important;
+    z-index: 1;
+}
+.provostDetails{
+    text-align: center;
+    padding:50px;
+    margin-top: 70px;
+    grid-column: 1 / span 3;
+    background-color:skyblue;
+    z-index: 2;
+    color: black;
+}
+ 
+
+.provostDetails img{
+    width:100px;
+    height:100px;
+    margin-top: 10px;
+}
+
+.footer{
+  grid-column: 1 /span 3;
+    
+}/*
+.provostHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.provostHeader .act{
+    border-bottom:orange 2px solid;
+    width:200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.provostDetails{
+    
+    padding: 10px;
+    text-align: center;
+   
+}
+.footer{
+    position:fixed !important;
+    bottom: 0px !important;
+    
+}
+.icons :hover{
+    background-color: white;
+}
+
+
+@media screen and (max-width:450px){
+   .container{
+    margin: 50px auto auto;
+    
+   }
+   .footer{
+    position: relative;
+
+
+   }
+   
+    
+}*/
+@media screen and (max-width:260px){
+   
+ .provostDetails{
+    padding:20px;
+
+ }
+       
+   
+    
+}

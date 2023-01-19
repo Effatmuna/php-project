@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+header{
+    position: sticky !important;
+}
+
+
+body{
+    background-image: url("../img/pic 10.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overflow{
+    z-index: -1 !important;
+  height: 633px;
+  }
+  .navList .dropdowN{
+    position: absolute;
+    top:165px !important;
+  display: none;
+    color: black;
+    width: 160px;
+    margin-left: -10px;
+
+  }
+.contactUs{
+   
+    
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 3 1fr;
+    justify-items: center;
+row-gap: 170px;
+
+   
+}
+h1{
+    margin: 20px auto auto;
+    color:white;
+}
+.act{
+    border-bottom:orange 2px solid;
+    width:200px;
+    display: flex;
+    justify-content: center;
+   
+}
+.provost{
+   text-align: center;
+   background-color:skyblue;
+   margin-top: 30px;
+  
+   
+    
+}
+.provostDetails{
+    padding: 70px;
+    color: black;
+
+    
+}
+.provostDetails h2{
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.footer{
+    position: sticky;
+}
+@media screen and (max-width:700px){
+    .navbaR .menubaR{
+    
+            display: block;
+            position: absolute;
+            left:95%;
+            top:50px;
+
+    }
+}
+
+@media screen and (max-width:450px){
+    .provostDetails{
+        padding: 30px;
+        color: black;
+    
+        
+    }
+    
+}
+@media screen and (max-width:250px){
+  body{
+    width:250px;
+  }
+  .provostDetails{
+    padding: 20px;
+    color: black;
+
+    
+}
+}
+

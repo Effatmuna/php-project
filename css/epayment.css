@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+
+    
+}
+header{
+    position: sticky !important;
+}
+.header{
+    
+}
+.navbar{
+    
+    
+}
+.overflow{
+    height:71.7%;
+    z-index: -1;
+}
+body{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+     
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 3 1fr;
+    margin: 50px auto 50px auto;
+    justify-items: center;
+    width:50%;
+    border-radius: 10px;
+    background-color:white;
+    z-index: 999;
+    color:black;
+    
+}
+form{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+  
+    
+    
+}
+label{
+    
+    
+}
+input{
+    width: 500px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+border: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    z-index: 9999;
+
+}
+.depart{
+    display: flex;
+    flex-direction: column;
+}
+
+.depart label{
+
+}
+.Semister{
+    display: flex;
+    flex-direction: column;
+}
+form .depBatch{
+    
+    
+    display: flex;
+    
+
+    flex-direction: column;
+    
+}
+form .depBatch label{
+    
+}
+form .depBatch .dep{
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    width:500px;
+    border: 1px solid black;
+    
+}
+form .semister .dep{
+    margin-top: 5px;
+}
+.Next{
+    text-decoration: none;
+   padding:7px 10px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0px !important;
+    background-color: rgb(243, 238, 238);
+    color: black;
+
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+    
+}
+.next input{
+    width:100px;
+    padding: 10px;
+    border: none;
+}
+.payment img{
+    border-radius: 100%;
+}
+.footer{
+    width: 100%;
+    
+    bottom:0px;
+    
+}
+@media screen and (max-width:1200px){
+    input{
+        width:100%;
+    }
+    .regis{
+        text-align: center;
+        
+
+    }
+   form .depBatch .dep{
+        width:185px;
+        
+    }
+    
+}
+@media screen and (max-width:750px){
+    .container{
+        width:80%;
+    }
+    form .depBatch .dep{
+        width:185px;
+        margin-left: 0px;
+    }
+
+    
+    
+}
+@media screen and (max-width:360px){
+    .container{
+        width:90%;
+    
+    }
+    input{
+        width:150px;
+    }
+    form .depBatch .dep{
+        width:147px;
+        margin-left: 0px;
+    }
+
+  
+    
+    
+}
+@media screen and (max-width:250px){
+    .container{
+        width:90%;
+    
+    }
+    input{
+        width:100px;
+    }
+    form .depBatch .dep{
+        width:100px;
+        margin-left: 0px;
+    }
+    .Next{
+        text-align: center;
+        
+        position: relative;
+        top:10px;
+    }
+    .payment{
+        margin-top: 20px;
+    }
+
+  
+    
+    
+}

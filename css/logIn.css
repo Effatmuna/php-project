@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+.overflow{
+    height:750px !important;
+    z-index: -1 !important;
+}
+body{
+    
+    background-image: url('../img/pic 13.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header{
+    position: sticky;
+}
+.navbaR{
+
+}
+
+.logInform{
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    flex-wrap: wrap;
+    margin:40px auto auto;
+    text-align: center;
+    z-index: 6;
+   width: 45%;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 30px;
+    height: 300px;
+    opacity: 0.8;
+    color: white;
+
+}
+input{
+    padding: 10px;
+    width:300px ;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+.footer{
+    position: fixed !important;
+    bottom: 0px !important;
+    z-index: 2;
+    
+}
+.button input{
+  display: flex;    
+  
+justify-content: center;
+align-items: center;
+  text-align: center;
+    
+}
+.save{
+    padding: 7px;
+    flex-direction: row;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 6px;
+   
+    
+}
+
+.forget{
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+
+
+@media screen and (max-width:700px){
+    .logInform{
+        width:80%;
+        margin-top: 30px;
+    }
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:95%;
+        top:25px !important;
+    }
+  
+}
+@media screen and (max-width:550px) {
+  
+    .logInform{
+
+        font-family: 'Playfair Display', serif;
+        font-family: 'PT Serif', serif;
+        font-family: 'Rubik Vinyl', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        flex-wrap: wrap;
+       margin-top: 70px;
+       
+    
+    }
+   
+   
+    input{
+        width:200px;
+    }
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:93%;
+        top:25px;
+    }
+    .footer{
+        position: fixed !important;
+        bottom:0px;
+    }
+  
+   
+    
+}
+@media screen and (max-width:430px) {
+  
+  
+   
+}
+@media screen and (max-width:350px) {
+    body{
+        height:0px;
+    }
+    .logInform{
+
+        font-family: 'Playfair Display', serif;
+        font-family: 'PT Serif', serif;
+        font-family: 'Rubik Vinyl', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        flex-wrap: wrap;
+       text-align: center;
+       margin-top: 5px;
+      
+    
+    
+    }
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:90%;
+        top:25px;
+    }
+    input{
+        width:130px;
+    }
+    .footer{
+        
+    }
+  
+  
+ }
+ @media screen and (max-width:260px) {
+ 
+    .logInform{
+
+        font-family: 'Playfair Display', serif;
+        font-family: 'PT Serif', serif;
+        font-family: 'Rubik Vinyl', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        flex-wrap: wrap;
+       text-align: center;
+        margin-bottom: 85px;
+    padding: 10px;
+    
+    }
+    .footer{
+        flex-direction: column;
+    }
+  
+    input{
+        width:100px;
+    }
+    .navbaR .menuBar {
+        display: block;
+        position: absolute;
+        left:85%;
+        top:25px;
+    }
+   
+ }
+ 

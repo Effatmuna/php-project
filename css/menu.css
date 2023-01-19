@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding:0;  
+
+}
+
+.container{
+  
+ margin-top: 20px;
+    
+
+}
+h2{
+  font-size: 25px !important;
+  
+}
+.dropDownPic{
+  margin-top: 0px !important;
+}
+.dropdowN{
+    margin-top: -105px;
+
+}
+.dropdowN p{ 
+    margin: 0px;
+}
+.Header{
+  padding:20px;
+  box-shadow: 1px 1px 1px black;
+  background-color: rgb(81, 191, 193);
+
+}
+.details{
+  display: flex;
+  flex-direction: column;
+}
+.Header .logo{
+  border-radius: 100%;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.Header img{
+  width:70px;
+  height:70px;
+  
+}
+header{
+  position: fixed;
+  top:0px;
+  width:100%;
+  z-index: 999;
+}
+@media screen and (max-width:700px) {
+  .navbaR .menuBar {
+    display: block;
+    position: absolute;
+    left:95%;
+    top:20px;
+}
+
+}
